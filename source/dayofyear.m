@@ -8,6 +8,8 @@ function doy = dayofyear(mmddyy,dateFormat)
 
 % Copyright 2022 The MathWorks, Inc.
 
+% Changing the source code. Should trigger cache miss.
+
 arguments
     mmddyy string;
     dateFormat (1,1) string {mustBeMember(dateFormat,["mm/dd/yyyy","dd/mm/yyyy"])} = "mm/dd/yyyy";
